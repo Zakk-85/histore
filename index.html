@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi Store</title>
+
+    <!-- Bootsrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/0acc5b7a7c.js" crossorigin="anonymous"></script>
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- header -->
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-12">
+                    <div class="btn-group">
+                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expended="false">USD
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Euro</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <h1 class="my-md-3 site-title text-white">HiStore</h1>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                    <p class="my-md-4 header-links">
+                        <a href="#" class="px-2">Connexion</a>
+                        <a href="#" class="px-1">S'inscrire</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">ACCUEIL<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LE RECONDITIONNEMENT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NOS PRODUITS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LA BOUTIQUE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">À PROPOS</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar-nav">
+                    <li class="nav-item border rounded-circle mx-2 search-icon">
+                        <i class="fas fa-search p-2"></i>
+                    </li>
+                    <li class="nav-item border rounded-circle mx-2 basket-icon">
+                        <i class="fas fa-shopping-basket p-2"></i>
+                    </li>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- first slider -->
+        <div class="container-fluid p-0">
+            <div class="site-slider">
+                <div class="slider-one">
+                    <div>
+                        <img src="assets/images/slide1-img1.jpg" class="img-fluid" alt="banner 1" width="1920" height="600"> 
+                    </div>
+                    <div>
+                        <img src="assets/images/slide1-img2.jpg" class="img-fluid" alt="banner 2" width="1920" height="600">
+                    </div>
+                    <div>
+                        <img src="assets/images/slide1-img3.jpg" class="img-fluid" alt="banner 3" width="1920" height="600">
+                    </div>
+                </div>
+                <div class="slider-btn">
+                    <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next position-top right-0"><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- second slider -->
+        <div class="container-fluid">
+            <div class="site-slider-two px-md-4">
+                <div class="row slider-two text-center">
+                    <div class="col-md-2 product pt-md-5 pt-5">
+                        <img src="assets/images/produit1.jpg" alt="product 1">
+                        <span class="border site-btn btn-span">RÉFLEXS</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-5">
+                        <img src="assets/images/produit2.jpg" alt="product 2">
+                        <span class="border site-btn btn-span">HYBRIDES</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-5">
+                        <img src="assets/images/produit3.jpg" alt="product 3">
+                        <span class="border site-btn btn-span">COMPACTS</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-5">
+                        <img src="assets/images/produit4.jpg" alt="product 4">
+                        <span class="border site-btn btn-span">ARGENTIQUES</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-5">
+                        <img src="assets/images/produit6.jpg" alt="product 5">
+                        <span class="border site-btn btn-span">OBJECTIFS</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-5">
+                        <img src="assets/images/produit5.jpg" alt="product 6">
+                        <span class="border site-btn btn-span">PIÈCES</span>
+                    </div>
+                </div>
+                <div class="slider-btn">
+                    <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+                    <span class="next position-top right-0"><i
+                            class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- feature products -->
+
+        <div class="container-fluid p-0">
+            <div class="row title-section feature-prod">
+                <div class="col-md-12">
+                    <h2 class="text-center">Cette semaine...</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quidem
+                        velit deserunt<br>ut eum dignissimos odio perferendis, ipsum quisquam inventore!</p>
+                </div>
+            </div>
+
+            <!-- third slider  -->
+
+            <div class="site-slider-three px-md-4">
+                <div class="row slider-three text-center">
+                    <div class="col-md-2 feature-item pt-md-5 pt-5">
+                        <img src="assets/images/feature1.jpg" alt="feature 1">
+                        <p class="feature mt-3">Canon F-1</p>
+                        <div class="price">
+                            <p class="before">$99.99</p>
+                            <p class="after">$69.99</p>
+                        </div>
+                        <div class="feature-btn mt-4">
+                            <a href="#" class="border site-btn btn-span">Add to card</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 feature-item pt-md-5 pt-5">
+                        <img src="assets/images/feature2.jpg" alt="feature 2">
+                        <p class="feature mt-3">Sigma 300mm</p>
+                        <div class="price">
+                            <p class="before">$399.99</p>
+                            <p class="after">$299.99</p>
+                        </div>
+                        <div class="feature-btn mt-4">
+                            <a href="#" class="border site-btn btn-span">Add to card</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 feature-item pt-md-5 pt-5">
+                        <img src="assets/images/feature3.jpg" alt="feature 3">
+                        <p class="feature mt-3">Déclencheur X-1</p>
+                        <div class="price">
+                            <p class="before">$59.99</p>
+                            <p class="after">$39.99</p>
+                        </div>
+                        <div class="feature-btn mt-4">
+                            <a href="#" class="border site-btn btn-span">Add to card</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 feature-item pt-md-5 pt-5">
+                        <img src="assets/images/feature4.jpg" alt="feature 4">
+                        <p class="feature mt-3">Olympus CM-D</p>
+                        <div class="price">
+                            <p class="before">$469.99</p>
+                            <p class="after">$449.99</p>
+                        </div>
+                        <div class="feature-btn mt-4">
+                            <a href="#" class="border site-btn btn-span">Add to card</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 feature-item pt-md-5 pt-5">
+                        <img src="assets/images/feature5.jpg" alt="feature 5">
+                        <p class="feature mt-3">Nikon A1000</p>
+                        <div class="price">
+                            <p class="before">$399.99</p>
+                            <p class="after">$339.99</p>
+                        </div>
+                        <div class="feature-btn mt-4">
+                            <a href="#" class="border site-btn btn-span">Add to card</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 feature-item pt-md-5 pt-5">
+                        <img src="assets/images/feature6.jpg" alt="feature 6">
+                        <p class="feature mt-3">Grip Nikon</p>
+                        <div class="price">
+                            <p class="before">$16.99</p>
+                            <p class="after">$12.99</p>
+                        </div>
+                        <div class="feature-btn mt-4">
+                            <a href="#" class="border site-btn btn-span">Add to card</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-btn">
+                    <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+                    <span class="next position-top right-0"><i
+                            class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- presentation products -->
+
+        <div class="container-fluid">
+            <div class="presentation-product">
+                <div class="row">
+                    <div class="col-md-2 chiffres">
+                        <div class="case border">
+                            <p>155</p>
+                            <p class="font-italic">days</p>
+                        </div>
+                        <div class="case border">
+                            <p>16</p>
+                            <p class="font-italic">hours</p>
+                        </div>
+                        <div class="case border">
+                            <p>39</p>
+                            <p class="font-italic">min</p>
+                        </div>
+                        <div class="case border">
+                            <p>12</p>
+                            <p class="font-italic">secs</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 image">
+                        <img src="assets/images/presentation-produit.jpg" alt="produit de presentation" width="600"
+                            height="600">
+                    </div>
+                    <div class="col-md-7 text-infos">
+                        <h3>Leica a3-k 1978</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit harum hic, dolorum laborum
+                            nihil porro nam non sed ea est aspernatur magni labore cum voluptas minus. Autem recusandae
+                            accusantium magni.</p>
+                        <div class="price presentation-price">
+                            <p class="before">$199.99</p>
+                            <p class="after">$139.99</p>
+                        </div>
+                        <div class="container-btn">
+                            <div class="presentation-btn">
+                                <a href="#" class="border site-btn btn-span">Add to card</a>
+                            </div>
+                            <div class="icons-presentation">
+                                <li class="border rounded-circle mx-2 heart-icon">
+                                    <i class="far fa-heart p-3"></i>
+                                </li>
+                                <li class="border rounded-circle mx-2 sync-icon">
+                                    <i class="fas fa-sync-alt p-3"></i>
+                                </li>
+                                <li class="border rounded-circle mx-2 search-icon">
+                                    <i class="fas fa-search p-3"></i>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="topfooter">
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fas fa-rocket fa-4x"></i>
+                    <div class="text-guarentee">
+                        <p>Free Shipping & Return</p>
+                        <p>Free Shipping on order over $49</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-hand-holding-usd fa-4x"></i>
+                    <div class="text-guarentee">
+                        <p>Money Guarentee</p>
+                        <p>30 days money back guarentee</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-headset fa-4x"></i>
+                    <div class="text-guarentee">
+                        <p>Online Support</p>
+                        <p>We support online 24 hours a day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="botfooter">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>234, Hellington Av. ,Chicago , Illinois, United States</li>
+                        <li>(888) 123456789</li>
+                        <li>storeonline@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li>Chicago</li>
+                        <li>San Francisco</li>
+                        <li>Dublin</li>
+                        <li>Madrid</li>
+                        <li>London</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h3>Extras</h3>
+                    <ul>
+                        <li>About Store</li>
+                        <li>New Collection</li>
+                        <li>Contact Us</li>
+                        <li>Latest News</li>
+                        <li>Our Sitemap</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="assets/images/paypal.png" alt="image footer" width="300" height="300">
+                </div>
+            </div>
+        </div>
+        <div class="ultrabotfooter">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <p>Need Help ? Call Our Award-Warning</p>
+                    <p>Support Team 24/7 At (844) 5555-8723</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form action="#">
+                        <input type="email" placeholder="Enter Your email Adress">
+                        <input type="submit" value="Suscribe">
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>@Obondesign - Designed by Obondesign | 2021 | StoreOnline</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
